@@ -5,6 +5,23 @@
     <title>Академия my test html</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
+  <script type='text/javascript'>    
+    var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1bxbeGie51pGhwJQcZncadhBScUJvta4g_wpzIQsuEH4/edit?usp=sharing';
+
+    function init() {
+      Tabletop.init( { key: publicSpreadsheetUrl,
+                       callback: showInfo,
+                       simpleSheet: true } )
+    }
+
+    function showInfo(data, tabletop) {
+      alert('Successfully processed!')
+      alert(data);
+    }
+
+    window.addEventListener('DOMContentLoaded', init)
+  </script>
   <body>
 
     <main>
