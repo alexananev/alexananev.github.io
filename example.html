@@ -4,7 +4,7 @@
 
     <p id="food"></p>
 
-    <script type="text/javascript" src="https://github.com/jsoma/tabletop/blob/master/src/tabletop.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js"></script>
     <script type="text/javascript">
       var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1bxbeGie51pGhwJQcZncadhBScUJvta4g_wpzIQsuEH4/edit?usp=sharing';
       function init() {
@@ -19,7 +19,7 @@
         document.getElementById("food").innerHTML = "<strong>Foods:</strong> " + [ data[0].Name, data[1].Name, data[2].Name ].join(", ");
         console.log(data);
       }
-      document.write("The published spreadsheet is located at <a target='_new' href='" + public_spreadsheet_url + "'>" + public_spreadsheet_url + "</a>");        
+      document.write("2The published spreadsheet is located at <a target='_new' href='" + public_spreadsheet_url + "'>" + public_spreadsheet_url + "</a>");        
     </script>
   </body>
 </html>
