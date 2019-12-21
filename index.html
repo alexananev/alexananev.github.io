@@ -19,25 +19,23 @@
       </p>
     </main>
   Создание собственного сайта.
-  <script language="JavaScript"> document.write("Это включение JavaScript") </script>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
-  <script type='text/javascript'>    
-    var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1umdDLRDIr-_-KSx9m4hRmbB07-NtMEUk0ltp1zzGHA0/edit?usp=sharing';
+  <div><script language="JavaScript"> document.write("Это включение JavaScript") </script></div>
+  <form
+  action="https://formspree.io/xgeoaolz"
+  method="POST">
+  <label>
+    Your email:
+    <input type="text" name="_replyto">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
 
-    function init() {
-      Tabletop.init( { key: publicSpreadsheetUrl,
-                       callback: showInfo,
-                       simpleSheet: true } )
-    }
+  <!-- your other form fields go here -->
 
-    function showInfo(data, tabletop) {
-      document.write('Successfully processed!')
-      console.log('Successfully processed!')
-      alert(data);
-    }
-
-    window.addEventListener('DOMContentLoaded', init)
-  </script>
-  <script language="JavaScript"> document.write("Это 4 включение JavaScript") </script>
+  <button type="submit">Send</button>
+</form>
+  <script language="JavaScript"> document.write("Это 6 включение JavaScript") </script>
   </body>
 </html>
