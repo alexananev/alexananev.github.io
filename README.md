@@ -10,5 +10,5 @@ https://drive.google.com/drive/folders/10YuC25T-NIfTxz9i1JHR6S9zuHdgnd74?usp=sha
   - зарегистрироваться на formspree.io, создать новую форму и скопировать полученную ссылку
   - ссылку на форму для запроса оценок можно получить, открыв из таблицы меню 'Форма'->'Перейти к активной форме', затем скопировать содержимое адресной строки
   - (опционально) заполнить контактную информацию о себе, она будет отображаться на главной странице сайта
-![picture](src/matrix.jpg)
+![picture](https://github.com/alexananev/alexananev.github.io/src/matrix.jpg)
 ![alt text](https://avatars2.githubusercontent.com/u/11632545?v=3&s=200)
